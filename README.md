@@ -3,34 +3,32 @@ Nesse repositório irei escrever os principais comandos do git
 
 ## Principais comandos
 ### Iniciando seu primeiro repositório
-1. **Download do git**
+1. **Download do git**  
 [Aqui](https://git-scm.com/download/guis)  
 ou  
-```
-sudo apt-get install git
-```
-2. **Interface**
-O download da interface recomenda __não é obrigatório__: [GitEye](http://www.collab.net/downloads/giteye)  
+```sudo apt-get install git```
+2. **Interface**  
+O download da interface recomenda _não é obrigatório_: [GitEye](http://www.collab.net/downloads/giteye)  
 
-3. **Iniciando um repositório**
-Abra um diretório no seu PC (pasta), com o nome desejado  
-Abra o terminal neste diretório e de o comando:  
+3. **Iniciando um repositório**  
+- Abra um diretório no seu PC (pasta), com o nome desejado.  
+- Abra o terminal neste diretório e de o comando:  
 ```
 git init
 ```
-Crie o arquivo **README.md**  
+- Crie o arquivo **README.md**  
 ```
 gedit README.md
 ```
-Esse é um arquivo do tipo Markdown para ver a sintaxe clique [aqui](https://guides.github.com/features/mastering-markdown/)  
-Faça seu primeiro commit  
+- Esse arquivo que você está lendo é do tipo Markdown para ver a sintaxe clique [aqui](https://guides.github.com/features/mastering-markdown/)  
+- Faça seu primeiro commit  
 ```
 git commit -m "Criando o arquivo Markdown"
 ```
-4. **Crie um repositório no GitHub**
+4. **Crie um repositório no GitHub**  
 * Abra sua conta no GitHub  
-* Vá para __repositories__  
-* Abra um novo __New__  
+* Vá para _repositories_  
+* Abra um novo _New_  
 
 Não é necessário ter o mesmo nome, mas é recomendado  
 ```
