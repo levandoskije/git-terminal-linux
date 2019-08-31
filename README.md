@@ -60,7 +60,13 @@ Mostra o histórico de commits efetuados
 ```
 git push
 ```
-Envia os commits efetuados para o repositório online
+Envia os commits efetuados para o repositório online  
+```
+git pull
+```
+Resgata do repositório online os commits efetuados  
+
+### Mais comandos
 ```
 git diff
 ```
@@ -70,5 +76,40 @@ git diff HEAD~2
 ```
 Mostra a diferença entre seu último commit _HEAD_ até o penúltimo _~2_  
 Pode ser digitado qualquer número  
+#### Usando Branches
+```
+git checkout -b NovaBranch
+```
+Cria uma nova branch chamada _NovaBranch_  
+Uma nova branch é um novo ramo de desenvolvimento, que pode ser unido ao principal _Master_ posteriormente  
+```
+git checkout master
+```
+Retorna para a branch master  
+Se vc fizer o push quando estiver na master, a _NovaBranch_ não será enviada  
+```
+git branch -d NovaBranch
+```
+Exclui a branch _NovaBranch_ 
+```
+git push origin <NovaBranch>
+```
+Manda para o repositório remoto _GitHub_ a _ NovaBranch_  
+```
+git merge <branch>
+```
+Faz merge da sua Branch ativa com a _branch_ indicada  
+```
+git status
+```
+Consegue ver qual _Branch_ está ativa  
+Provavelmente dará conflitos nos arquivos, sendo assim você terá que arrumar isso  
+Após consertar os conflitos, faz uma atualização do repositório novamente  
+```
+git diff <branch origem> <branch destino>
+```
+Mostra a diferença entre as Branchs antes de fazer o merge  
+É aconselhável escrever _Merged <branch origem> <branch destino>_ na hora de fazer o commit de merge  
 
+### Criando versões _tags_ 
 
