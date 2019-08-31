@@ -1,4 +1,6 @@
 # Como usar Git e GitHub no Ubuntu
+![Ubuntu/Git Logo](/logo-git-ubuntu.png)  
+
 Nesse repositório irei escrever um resumo dos principais comandos do git  
 
 ## Principais comandos
@@ -29,8 +31,8 @@ git commit -m "Criando o arquivo Markdown"
 ```
 4. **Crie um repositório no GitHub**  
 - Abra sua conta no GitHub  
- - Vá para _repositories_  
- - Abra um novo _New_  
+  - Vá para _repositories_  
+  - Abra um novo _New_  
 
 Não é necessário ter o mesmo nome, mas é recomendado  
 Após isso o GitHub irá exibir:  
@@ -67,4 +69,6 @@ Mostra a diferença entre seu último commit e o atual
 git diff HEAD~2
 ```
 Mostra a diferença entre seu último commit _HEAD_ até o penúltimo _~2_  
-Pode ser digitado qualquer número
+Pode ser digitado qualquer número  
+
+
