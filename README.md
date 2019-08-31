@@ -1,12 +1,14 @@
 # Como usar Git e GitHub no Ubuntu
-Nesse repositório irei escrever os principais comandos do git  
+Nesse repositório irei escrever um resumo dos principais comandos do git  
 
 ## Principais comandos
 ### Iniciando seu primeiro repositório
 1. **Download do git**  
 [Aqui](https://git-scm.com/download/guis)  
 ou  
-```sudo apt-get install git```
+```
+sudo apt-get install git
+```
 2. **Interface**  
 O download da interface recomenda _não é obrigatório_: [GitEye](http://www.collab.net/downloads/giteye)  
 
@@ -26,11 +28,12 @@ gedit README.md
 git commit -m "Criando o arquivo Markdown"
 ```
 4. **Crie um repositório no GitHub**  
-* Abra sua conta no GitHub  
-* Vá para _repositories_  
-* Abra um novo _New_  
+- Abra sua conta no GitHub  
+ - Vá para _repositories_  
+ - Abra um novo _New_  
 
 Não é necessário ter o mesmo nome, mas é recomendado  
+Após isso o GitHub irá exibir:  
 ```
 git remote add origin <esse link o próprio GitHub fornece>
 git push -u origin master
@@ -56,4 +59,12 @@ Mostra o histórico de commits efetuados
 git push
 ```
 Envia os commits efetuados para o repositório online
-
+```
+git diff
+```
+Mostra a diferença entre seu último commit e o atual
+```
+git diff HEAD~2
+```
+Mostra a diferença entre seu último commit _HEAD_ até o penúltimo _~2_  
+Pode ser digitado qualquer número
