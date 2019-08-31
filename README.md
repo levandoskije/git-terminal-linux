@@ -113,3 +113,20 @@ Mostra a diferença entre as Branchs antes de fazer o merge
 
 ### Criando versões _tags_ 
 
+```
+git tag v1.0.0 <id do commit desejado>
+```
+Pode criar tags de versões estáveis do programa
+
+```
+git checkout v1.0.0 
+```
+Entra na versão da tag desejada
+```
+git -b OutraBranch
+```
+Cria uma nova branch a partir da _tag_ v1.0.0
+```
+git checkout master
+```
+volta para o ramo principal
