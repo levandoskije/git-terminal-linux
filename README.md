@@ -117,6 +117,10 @@ Mostra a diferença entre as Branchs antes de fazer o merge
 git tag v1.0.0 <id do commit desejado>
 ```
 Pode criar tags de versões estáveis do programa
+```
+git push origin v1.0.0
+```
+Para fazer o push da tag v1.0.0
 
 ```
 git checkout v1.0.0 
