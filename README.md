@@ -134,3 +134,20 @@ Cria uma nova branch a partir da _tag_ v1.0.0
 git checkout master
 ```
 volta para o ramo principal
+
+### Atualizando a master com o fork
+
+```
+git remote add upstream https://github.com/usuario/projeto.git
+```
+Deve estar em outra branch quando faz o fecth
+
+```
+git fetch upstream master:master
+```
+
+### Puxar PRs
+
+```
+git ftech upstream pull/393/head:nome_branch_local
+```
