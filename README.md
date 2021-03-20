@@ -40,6 +40,12 @@ Após isso o GitHub irá exibir:
 git remote add origin <esse link o próprio GitHub fornece>
 git push -u origin master
 ```
+### Lista repositórios remotos
+
+```
+git remote - v
+```
+
 ### Atualizações no repositório
 ```
 git add .
@@ -149,5 +155,5 @@ git fetch upstream master:master
 ### Puxar PRs
 
 ```
-git ftech upstream pull/393/head:nome_branch_local
+git fetch upstream pull/393/head:nome_branch_local
 ```
